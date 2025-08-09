@@ -1,0 +1,127 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Container */
+.container {
+    padding: 25px 0;
+    margin: auto;
+    width: 80%;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 183);
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar .nav-logo {
+    font-weight: 600;
+    font-size: large;
+    color: yellow;
+}
+
+.navbar .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a:hover {
+    background-color: #0A400C;
+    border-radius: 5px;
+}
+
+/* Profile-Section */
+.profile-section {
+    text-align: center;
+    padding: 70px 40px;
+    background-color: #f4f4f4;
+}
+
+.profile-img {
+    width: 35%;
+}
+
+/* Heading */
+h1, h2 {
+    color: #0A400C;
+}
+
+/* List */
+ul {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Table tentang saya*/
+.tentangsaya {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.tentangsaya td {
+    padding: 10px 10px;
+    font-family: Arial;
+    font-weight: 400;
+    border: none;
+}
+
+#pendidikan{
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+#pendidikan h2 {
+    margin-left: 9rem;
+}
+
+/* Tabel Pendidikan */
+.tabelpendidikan {
+    border-collapse: collapse;
+    width: 65%;
+    margin-left: 9rem;
+}
+
+.tabelpendidikan th {
+    background-color: rgb(0, 0, 183);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tabelpendidikan td {
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+/* Contact container */
+.contact-container {
+    margin-top: 20px;
+}
+
+.contact-button img {
+    width: 5%;
+    padding: 10px;
+} 
